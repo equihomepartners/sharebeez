@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 251, 235;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Custom container styles */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Custom button styles */
+.btn {
+  @apply px-6 py-2 rounded-full font-semibold transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-amber-500 hover:bg-amber-600 text-white;
+}
+
+.btn-secondary {
+  @apply bg-white hover:bg-gray-100 text-amber-500 border-2 border-amber-500;
+}
+
+/* Custom card styles */
+.card {
+  @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+}
+
+/* Custom section styles */
+.section {
+  @apply py-20;
+}
+
+.section-title {
+  @apply text-4xl font-bold mb-4 text-gray-900;
+}
+
+.section-subtitle {
+  @apply text-xl text-gray-600 max-w-3xl mx-auto;
+}
+
+/* Custom list styles */
+.feature-list {
+  @apply space-y-4;
+}
+
+.feature-item {
+  @apply flex items-start gap-4;
+}
+
+/* Custom text styles */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-amber-600;
+}
+
+/* Custom hover effects */
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Custom grid styles */
+.grid-auto-fit {
+  @apply grid gap-8;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+} 
