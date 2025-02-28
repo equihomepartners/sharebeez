@@ -46,7 +46,7 @@ export default function CommunitiesSection() {
           className="max-w-3xl mx-auto mb-16"
         >
           <p className="text-lg text-gray-600 text-center">
-            ShareBeez is more than a marketplace—it's a platform for collective purchasing power. Whether you're an HOA, non-profit, or a local group, organize bulk purchases, fundraisers, and shared resources with ease.
+            ShareBeez is more than a marketplace&mdash;it&apos;s a platform for collective purchasing power. Whether you&apos;re an HOA, non-profit, or a local group, organize bulk purchases, fundraisers, and shared resources with ease.
           </p>
         </motion.div>
 

@@ -46,7 +46,7 @@ export default function DownloadApp() {
               Scan to Download
             </h3>
             <p className="text-gray-600 mb-8">
-              Scan the QR code with your phone's camera to download the ShareBeez app.
+              Scan the QR code with your phone&apos;s camera to download the ShareBeez app.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <motion.a

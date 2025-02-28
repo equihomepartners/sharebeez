@@ -49,7 +49,7 @@ export default function UpcomingFeatures() {
         >
           <h2 className="text-4xl font-bold mb-4 text-black">Coming Soon</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're constantly innovating to bring you new features that enhance your ShareBeez experience.
+            We&apos;re constantly innovating to bring you new features that enhance your ShareBeez experience.
           </p>
         </motion.div>
 

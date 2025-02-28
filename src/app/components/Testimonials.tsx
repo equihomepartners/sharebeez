@@ -76,7 +76,7 @@ export default function Testimonials() {
                 transition={{ duration: 0.5, delay: index * 0.3 }}
                 className="text-gray-600 mb-6 italic"
               >
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </motion.p>
               <motion.div
                 initial={{ opacity: 0 }}
